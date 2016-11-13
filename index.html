@@ -9,15 +9,15 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   </head>
-
-  <body>
+<body>
+<!--navbar-->
    <div class="navbar-fixed">
     <nav>
       <div class="nav-wrapper">
             <div class="container">
         <a href="#" class="brand-logo">toolbox</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><a href="html/repairs.html">repair</a></li>
+        <ul id="nav-mobile" class="right">
+          <li class="active"><a href="html/repairs.html">repair</a></li>
           <li><a href="html/tests.html">test</a></li>
         </ul>
       </div>
@@ -27,18 +27,17 @@
 
   <div class="section">
       <div class="container">
-        <!--html class inspector tool -->
         <div class="row">
+        <!--html class inspector tool-->
           <div class="col s12 m6">
           <div class="card">
             <div class="card-content">
               <h1 class="thin">html class inspector</h1>
               <p>Checks the <code>html class</code> attribute in the .htm files in your project. Removes incorrect classes and applies <code>class=&quot;Topics&quot;</code> to empty attributes.</p>
               <h3 class="thin">choose a project </h3>
-
               <form action="#">
                 <div class="file-field input-field">
-                  <div class="btn">
+                  <div class="waves-effect waves-light btn-flat">
                     <span>File</span>
                     <input type="file">
                   </div>
@@ -47,11 +46,33 @@
                   </div>
                 </div>
               </form>
-
             </div>
             <div class="card-action">
-              <a href="#">This is a link</a>
-              <a href="#">This is a link</a>
+              <a class="waves-effect waves-light btn">Run</a>
+            </div>
+          </div>
+        </div>
+        <!--img-responsive tool-->
+          <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <h1 class="thin">img-responsive tool</h1>
+              <p>Checks the <code>img class</code> attributes in the .htm files in your project. Checks if an image needs <code>class=&quot;img-responsive&quot;</code> and applies it.</p>
+              <h3 class="thin">choose a project </h3>
+              <form action="#">
+                <div class="file-field input-field">
+                  <div class="waves-effect waves-light btn-flat">
+                    <span>File</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="select a Flare project to repair">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn">Run</a>
             </div>
           </div>
         </div>
