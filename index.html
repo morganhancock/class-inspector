@@ -24,15 +24,30 @@
       </div>
     </nav>
   </div>
+
   <div class="section">
       <div class="container">
+        <!--html class inspector tool -->
         <div class="row">
           <div class="col s12 m6">
           <div class="card">
             <div class="card-content">
-              <span class="card-title">html class inspector</span>
+              <h1 class="thin">html class inspector</h1>
               <p>Checks the <code>html class</code> attribute in the .htm files in your project. Removes incorrect classes and applies <code>class=&quot;Topics&quot;</code> to empty attributes.</p>
-              <h3>choose a project </h3>
+              <h3 class="thin">choose a project </h3>
+
+              <form action="#">
+                <div class="file-field input-field">
+                  <div class="btn">
+                    <span>File</span>
+                    <input type="file">
+                  </div>
+                  <div class="file-path-wrapper">
+                    <input class="file-path validate" type="text" placeholder="select a Flare project to repair">
+                  </div>
+                </div>
+              </form>
+
             </div>
             <div class="card-action">
               <a href="#">This is a link</a>
@@ -45,6 +60,6 @@
       </div>
     <!--Import jQuery before materialize.js-->
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/bin/materialize.min.js"></script>
   </body>
 </html>
