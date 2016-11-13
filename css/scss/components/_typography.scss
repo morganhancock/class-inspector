@@ -43,6 +43,9 @@ small { font-size: 75%; }
 .light { font-weight: 300; }
 .thin { font-weight: 200; }
 
+code {
+  color:$primary-color
+}
 
 .flow-text{
   font-weight: 300;
